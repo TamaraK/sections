@@ -1,0 +1,29 @@
+html {
+  font-family: 'Lato', sans-serif;
+  background-color: #f2f2f2;
+  max-width: 225em;
+}
+
+img {
+  width: 25em;
+}
+
+h1 {
+  vertical-align: middle;
+}
+
+p {
+  line-height: 1.5;
+  max-width: 25em;
+
+}
+
+a {
+  display: inline-block;
+  margin:1.5rem;
+  padding: 1em 2em;
+  border-color: #333;
+  border-width: medium;
+  vertical-align: middle;
+
+}
