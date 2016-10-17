@@ -2,8 +2,12 @@ html {
   font-family: 'Lato', sans-serif;
   background-color: #f2f2f2;
   max-width: 225em;
+  box-sizing: border-box;
 }
 
+*, *::before, *::after {
+  box-sizing: border-box;
+}
 img {
   width: 25em;
 }
@@ -15,6 +19,7 @@ h1 {
 p {
   line-height: 1.5;
   max-width: 25em;
+  text-align: center;
 
 }
 
@@ -24,7 +29,7 @@ a {
   padding: 1em 2em;
   border: 2px solid #333;
   vertical-align: middle;
-  max-width: 5em;
+  max-width: 10em;
   border-radius: 10px;
   text-decoration: none;
   color: #333;
